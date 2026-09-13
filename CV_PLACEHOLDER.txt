@@ -1,0 +1,2 @@
+Upload your actual CV PDF here and rename it exactly: cv.pdf
+The navigation bar is already linked to cv.pdf.
