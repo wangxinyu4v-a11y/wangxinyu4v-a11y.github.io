@@ -191,7 +191,7 @@ footer {
 }
 .photo-item img {
   display: block;
-  width: 100%;
+  width: 70%;
   height: auto;
 }
 .photo-item figcaption {
