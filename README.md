@@ -1,32 +1,11 @@
-# Xinyu Wang Academic Website
+# Xinyu Wang Academic Website — v3
 
-This is a lightweight static website designed for GitHub Pages.
+This version incorporates the latest edits from your uploaded `index.html`,
+adds your YITP email and Google Scholar link, and reduces the oversized
+heading/body-display typography.
 
-## Files
-- `index.html` — site content
-- `style.css` — styling
-
-## Before publishing
-Search `index.html` for:
-- `YOUR_EMAIL_HERE`
-- `YOUR_GOOGLE_SCHOLAR_URL`
-
-Replace those placeholders with your current YITP email and Google Scholar link.
-
-You can also replace the hero placeholder with:
-- a portrait, or
-- a strong TMM / mechanics figure.
-
-## Publish with GitHub Pages
-1. Create a new GitHub repository, for example `xinyuwang.github.io`.
-2. Upload `index.html` and `style.css`.
-3. In GitHub: Settings → Pages.
-4. Publish from the `main` branch / root directory.
-5. Optional: connect a custom domain later.
-
-## Suggested next edits
-- Add exact paper titles and links.
-- Add a downloadable CV PDF.
-- Add research figures.
-- Add a short list of currently available student projects.
-- Add ORCID / Google Scholar / GitHub links if desired.
+To update GitHub Pages:
+1. Upload `index.html` and `style.css` to the repository root.
+2. Replace the existing files when GitHub asks.
+3. Commit the changes.
+4. GitHub Pages will redeploy automatically.
