@@ -170,3 +170,41 @@ footer {
   font-size: 1.05rem;
   letter-spacing: 0.01em;
 }
+
+
+.profile-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+.photo-grid {
+  display: grid;
+  grid-template-columns: minmax(260px, 0.8fr) 1.2fr;
+  gap: 48px;
+  align-items: start;
+  margin-top: 36px;
+}
+.photo-item {
+  margin: 0;
+}
+.photo-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.photo-item figcaption {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: .9rem;
+}
+.personal-note {
+  max-width: 650px;
+}
+.collaboration-home {
+  background: white;
+}
+@media (max-width: 780px) {
+  .photo-grid { grid-template-columns: 1fr; gap: 28px; }
+}

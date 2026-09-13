@@ -21,3 +21,13 @@ For your CV:
 3. The navigation link will work automatically.
 
 Because all pages live in the same folder, links between them work automatically on GitHub Pages.
+
+
+## Version 2 additions
+- Added homepage portrait (`xinyu-wang.jpg`)
+- Added B.S. in Civil Engineering at Southeast University to the biography/timeline
+- Reframed the biography as an engineering → physics/soft-materials trajectory
+- Added a separate `photos.html` personal/photo page
+- Added collaboration-welcome information on Home and Contact
+
+- Updated B.S. dates to 2011–2015.
