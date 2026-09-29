@@ -1,33 +1,30 @@
-# Xinyu Wang multi-page academic website
+# Xinyu Wang academic website
 
-This package converts the single-page site into a small multi-page site.
-
-## Pages
-- `index.html` — Home
-- `research.html` — Research directions + links to related publications
-- `publications.html` — Full publication list
-- `opportunities.html` — Student + postdoc opportunities
-- `contact.html` — Contact
-- `style.css` — Shared styling
-- `cv.pdf` — add your actual CV PDF with this exact filename
+## Included in this update
+- Added a News page and a compact news section on the homepage.
+- Restored the previously prepared entries about YITP, the Geometers of Soft Materials Symposium, and the Nature Communications fracture paper.
+- Kept the personal reflection about returning to Penn.
+- Added the supplied CV as `cv.pdf`, with links in the navigation and a Download CV button on the homepage.
+- Kept the supplied CV PDF unchanged.
 
 ## Publish on GitHub Pages
-Upload all HTML files and `style.css` to the root of your existing GitHub Pages repository.
-If GitHub asks whether to replace `index.html` and `style.css`, confirm.
+1. Unzip this package.
+2. Open https://github.com/wangxinyu4v-a11y/wangxinyu4v-a11y.github.io
+3. Choose **Add file > Upload files**.
+4. Upload all HTML files, `style.css`, `xinyu-wang.jpg`, and `cv.pdf` into the repository root, where `index.html` already lives. Upload the extracted files, not the ZIP or its containing folder.
+5. Commit the changes. GitHub Pages will rebuild the website.
 
-For your CV:
-1. Upload your CV PDF.
-2. Rename it to `cv.pdf`.
-3. The navigation link will work automatically.
+The live website is https://wangxinyu4v-a11y.github.io/
 
-Because all pages live in the same folder, links between them work automatically on GitHub Pages.
+## Update your CV later
+Replace `cv.pdf` with the latest PDF using the same filename. All CV links will continue to work.
 
-
-## Version 2 additions
-- Added homepage portrait (`xinyu-wang.jpg`)
-- Added B.S. in Civil Engineering at Southeast University to the biography/timeline
-- Reframed the biography as an engineering → physics/soft-materials trajectory
-- Added a separate `photos.html` personal/photo page
-- Added collaboration-welcome information on Home and Contact
-
-- Updated B.S. dates to 2011–2015.
+## Pages
+- `index.html`: Home
+- `news.html`: News
+- `research.html`: Research
+- `publications.html`: Publications
+- `opportunities.html`: Opportunities
+- `photos.html`: Photos
+- `contact.html`: Contact
+- `cv.pdf`: CV
