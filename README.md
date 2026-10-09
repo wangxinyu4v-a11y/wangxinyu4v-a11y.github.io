@@ -1,6 +1,11 @@
 # Xinyu Wang academic website
 
 ## Included in this update
+- Expanded the Opportunities page with 17 program entries under PhD, postdoctoral, and visiting opportunities.
+- Added official program links, candidate eligibility, and combined opening / closing dates, checked October 9, 2026. Unannounced dates are marked TBA.
+- Included the newly announced YITP Young International Researcher FY2027 call, closing November 30, 2026.
+- Added category jump links and a responsive layout that stacks table entries on small screens.
+- Updated the homepage opportunity introduction.
 - Added a News page and a compact news section on the homepage.
 - Restored the previously prepared entries about YITP, the Geometers of Soft Materials Symposium, and the Nature Communications fracture paper.
 - Kept the personal reflection about returning to Penn.

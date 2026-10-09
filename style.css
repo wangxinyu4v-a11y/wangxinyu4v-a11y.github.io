@@ -236,6 +236,44 @@ footer {
 .page-title { margin: 8px 0 30px; font-size: clamp(1.75rem, 3vw, 2.7rem); line-height: 1.08; letter-spacing: -.04em; }
 nav a[aria-current="page"] { color: var(--accent); font-weight: 650; }
 a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+.skip-link { position: fixed; top: -100px; left: 20px; z-index: 100; background: white; padding: 12px 18px; }
+.skip-link:focus { top: 10px; }
+.opportunities-intro { padding-bottom: 40px; }
+.opportunities-copy { max-width: 850px; }
+.opportunities-page .big-copy a, .opportunities-copy a { color: var(--accent); text-underline-offset: 3px; }
+.opportunity-jump { display: flex; flex-wrap: wrap; gap: 12px 28px; margin: 38px 0 24px; padding: 22px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.opportunity-jump a { color: var(--accent); font-weight: 650; text-decoration: underline; text-underline-offset: 4px; }
+.opportunity-date { max-width: 920px; margin-bottom: 0; }
+.opportunity-section { scroll-margin-top: 92px; }
+.opportunity-section h2 { margin-bottom: 22px; }
+.opportunity-table-wrap { margin-top: 30px; }
+.opportunity-table { width: 100%; border-collapse: collapse; table-layout: fixed; text-align: left; background: white; font-size: .94rem; line-height: 1.6; }
+.opportunity-table .program-col { width: 25%; }
+.opportunity-table .eligibility-col { width: 44%; }
+.opportunity-table .dates-col { width: 31%; }
+.opportunity-table th, .opportunity-table td { vertical-align: top; padding: 22px; border-bottom: 1px solid var(--line); overflow-wrap: anywhere; }
+.opportunity-table thead th { background: var(--panel); color: var(--accent); font-size: .8rem; letter-spacing: .02em; padding-top: 16px; padding-bottom: 16px; }
+.opportunity-table tbody th { font-weight: 650; }
+.opportunity-table a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.program-meta { display: block; font-weight: 400; color: var(--muted); font-size: .84rem; margin-top: 8px; }
+.program-dates strong { display: block; font-weight: 600; }
+.program-dates small { display: block; font-size: .85rem; color: var(--muted); margin-top: 8px; }
+.program-dates small + strong { margin-top: 18px; }
+.opportunity-contact .button { overflow-wrap: anywhere; max-width: 100%; }
+@media (max-width: 780px) {
+  .opportunity-section { scroll-margin-top: 154px; }
+  .opportunity-table, .opportunity-table tbody, .opportunity-table tr, .opportunity-table th, .opportunity-table td { display: block; width: 100%; }
+  .opportunity-table colgroup { display: none; }
+  .opportunity-table thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0); }
+  .opportunity-table { background: transparent; }
+  .opportunity-table tr { margin-bottom: 20px; border: 1px solid var(--line); background: white; }
+  .opportunity-table tbody th { background: var(--panel); font-size: 1rem; padding: 20px; }
+  .opportunity-table td { padding: 18px 20px; }
+  .opportunity-table td:last-child { border-bottom: 0; }
+  .opportunity-table td::before { content: attr(data-label); display: block; font-size: .75rem; font-weight: 750; letter-spacing: .03em; color: var(--accent); margin-bottom: 8px; }
+  .opportunities-page .section { padding-top: 48px; padding-bottom: 48px; }
+}
 @media (max-width: 780px) {
   .nav-wrap { flex-direction: column; gap: 12px; }
   nav { column-gap: 16px; row-gap: 8px; }
